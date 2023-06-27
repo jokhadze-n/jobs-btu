@@ -11,7 +11,7 @@ function setActive() {
 
     if (currentURL.includes('home')) {
         homeButton.classList.add('active');
-    } else if (currentURL.includes('jobs')) {
+    } else if (currentURL.includes('new-jobs')) {
         jobsButton.classList.add('active');
     } else if (currentURL.includes('contact')) {
         contactButton.classList.add('active');
