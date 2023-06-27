@@ -64,8 +64,7 @@
     }
 
     .custom-btn {
-        height: 40px !important;
-        width: 100px !important;
+        margin-top: 36px;
     }
 
     .h-span {
