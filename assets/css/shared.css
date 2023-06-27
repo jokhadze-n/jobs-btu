@@ -1,0 +1,130 @@
+@font-face {
+    font-family: main-regular;
+    src: url(../fonts/Poppins-Medium.ttf);
+}
+
+@font-face {
+    font-family: main-bold;
+    src: url(../fonts/Poppins-ExtraBold.ttf);
+}
+
+@font-face {
+    font-family: main-medium;
+    src: url(../fonts/Poppins-bold.ttf);
+}
+
+@media (min-width: 200px) and (max-width: 1200px) {
+    section {
+        margin: 12px 0!important;
+    }
+}
+
+@media (min-width: 200px) and (max-width: 1200px) {
+    .logo img {
+        height: 30px;
+    }
+
+    nav ul {
+        flex-direction: column;
+        align-items: center;
+        gap: 3px;
+    }
+
+    nav li {
+        margin: 10px 0;
+    }
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: main-regular;
+}
+
+body {
+    overflow-x: hidden;
+    background-color: #f2f2f2;
+
+}
+
+section {
+    margin: 12px;
+    width: 100%;
+    display: block;
+}
+
+/* ////////////////HEADER/////////////////// */
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: #f2f2f2;
+}
+.logo a {
+    cursor: pointer;
+}
+.logo {
+    width: 200px;
+    height: 40px;
+    margin-left: 10px;
+}
+
+.logo img {
+    height: 40px;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav li {
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+nav a:hover,
+nav a.active {
+    background-color: #333;
+    color: #feba66;
+}
+
+/* ////////////////HEADER/////////////////// */
+
+.green-container {
+    padding: 36px;
+    background-color: #bafe66;
+    border-radius: 24px;
+}
+
+.custom-btn {
+    display: inline-block;
+    padding: 10px 20px;
+    width: 200px;
+    height: 50px;
+    background-color: #feba66;
+    color: #333;
+    text-decoration: none;
+    font-weight: bold;
+    border: none;
+    border-radius: 12px;
+    transition: background-color 0.5s, color 0.5s, border-color 0.5s;
+}
+
+.custom-btn:hover {
+    background-color: #4d4183;
+    padding: 8px 18px;
+
+    border: 2px solid #feba66;
+    color: #feba66;
+}

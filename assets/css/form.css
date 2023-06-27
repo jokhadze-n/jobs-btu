@@ -1,0 +1,52 @@
+.form-container {
+    display: flex;
+    gap: 1rem;
+    flex-direction: column;
+}
+
+.form-group {
+    margin-bottom: 12px;
+}
+
+.form-group label {
+    font-weight: bold;
+}
+
+.form-group input,
+.form-group textarea {
+    width: 100%;
+    padding: 6px;
+    border: none;
+    border-bottom: 1px solid #333;
+    background-color: transparent;
+}
+
+.form-group textarea {
+    resize: vertical;
+}
+
+input[type=file]::file-selector-button {
+    padding: 5px 10px;
+    border: 0px;
+    border-radius: 5px;
+    background-color: #4d4183;
+    color: #feba66;
+    transition: cubic-bezier(0.215, 0.610, 0.355, 1);
+}
+
+input[type=file]::file-selector-button:hover {
+    background-color: #feba66;
+    border: 2px solid #4d4183;
+    padding: 3px 8px;
+
+    color: #333;
+
+}
+
+.form-group input:focus,
+.form-group textarea:focus {
+    border-bottom: 2px solid #333;
+    /* Increase the border thickness */
+    outline: none;
+    /* Remove the default browser outline */
+}
