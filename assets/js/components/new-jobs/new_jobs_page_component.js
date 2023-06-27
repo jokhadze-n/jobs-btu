@@ -1,5 +1,5 @@
 import { ErrorComponent } from "../components.js";
-import { JobListItemComponent } from "../jobListItemComponent.js";
+import { JobListItemComponent } from "../job_list_item_component.js";
 import * as functions from "../../functions.js";
 
 export const NewJobsPageComponent = () => {

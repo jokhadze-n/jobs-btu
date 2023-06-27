@@ -1,4 +1,4 @@
-import { JobDetailComponent } from "./jobDetailComponent.js";
+import { JobDetailComponent } from "./job_detail_component.js";
 
 export const JobDetailPageComponent = () => {
     // fetch and get Jobs From service

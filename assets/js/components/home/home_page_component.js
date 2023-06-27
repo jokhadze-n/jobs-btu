@@ -1,5 +1,5 @@
-import { APIService } from "../../services/apiService.js";
-import { JobListItemComponent } from "../jobListItemComponent.js";
+import { APIService } from "../../services/api_service.js";
+import { JobListItemComponent } from "../job_list_item_component.js";
 import { ErrorComponent } from "../components.js";
 import * as functions from "../../functions.js";
 export const HomePageComponent = async () => {

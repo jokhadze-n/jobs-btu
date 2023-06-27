@@ -1,5 +1,5 @@
 import * as constants from '../../constants.js';
-import { IconItemComponent } from './IconItemComponent.js';
+import { IconItemComponent } from './icon_item_component.js';
 import { ErrorComponent } from "../components.js";
 
 export const JobDetailComponent = (job) => {

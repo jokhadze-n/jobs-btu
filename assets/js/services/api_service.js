@@ -1,5 +1,6 @@
-const jobsURL = 'https://www.arbeitnow.com/api/job-board-api';
 import * as functions from '../functions.js'; // to initialize Functions
+
+const jobsURL = 'https://www.arbeitnow.com/api/job-board-api';
 
 export const APIService = {
     fetchJobs: async () => {

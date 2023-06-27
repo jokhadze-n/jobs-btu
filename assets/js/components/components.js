@@ -1,8 +1,8 @@
-import { JobListItemComponent } from "./jobListItemComponent.js";
-import { JobTagComponent } from "./jobTagComponent.js";
-import { HomePageComponent } from "./home/homePageComponent.js";
-import { ResumeFormPageComponent } from "./resume-form/resumeFormPageComponent.js";
-import { ResumeFormComponent } from "./resume-form/resumeFormComponent.js";
+import { JobListItemComponent } from "./job_list_item_component.js";
+import { JobTagComponent } from "./job_tag_component.js";
+import { HomePageComponent } from "./home/home_page_component.js";
+import { ResumeFormPageComponent } from "./resume-form/resume_form_page_component.js";
+import { ResumeFormComponent } from "./resume-form/resume_form_component.js";
 
 const ErrorComponent = (error) => `
         <div class="d-flex flex-column justify-content-center align-items-center">

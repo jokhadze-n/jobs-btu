@@ -1,5 +1,5 @@
 import * as constants from '../constants.js';
-import { JobTagComponent } from './jobTagComponent.js';
+import { JobTagComponent } from './job_tag_component.js';
 
 export const JobListItemComponent = (job) => {
     const { createdAt, companyName, tags, location, title, slug } = job; // Data Object

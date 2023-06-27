@@ -1,4 +1,4 @@
-import { NewJobsPageComponent } from "./components/new-jobs/newJobsPageComponent.js";
+import { NewJobsPageComponent } from "./components/new-jobs/new_jobs_page_component.js";
 import * as functions from './functions.js'; // to initialize Functions
 
 function init() {
