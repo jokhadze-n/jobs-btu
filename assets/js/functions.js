@@ -40,7 +40,7 @@ export const navigateToForm = () => {
 }
 
 export const navigateToHome = () => {
-    window.location = 'homepage.html';
+    window.location = 'home.html';
 }
 
 export const navigateToDetails = (e) => {
